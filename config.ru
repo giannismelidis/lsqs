@@ -1,4 +1,3 @@
-require File.expand_path('../lib/lsqs', __FILE__)
-require File.expand_path('../lib/lsqs/server', __FILE__)
+require File.expand_path('../lib/lsqs', __FILE__) unless defined?(LSQS)
 
 run LSQS::Server
